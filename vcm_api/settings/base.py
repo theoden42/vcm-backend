@@ -29,11 +29,14 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'default')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG') != 'False'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 ALLOWED_HOSTS = ['arminpatel.pythonanywhere.com', '127.0.0.1']
 
 >>>>>>> 7eeb7f5 (modularise settings for production and development)
+=======
+>>>>>>> f7f4a1b (populate ALLOWED_HOSTS and CORS_ORIGIN_WHITELIST using environment variable in production)
 # Application definition
 
 INSTALLED_APPS = [
